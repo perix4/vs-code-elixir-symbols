@@ -4,23 +4,31 @@
     "description": "VSCode Elixir symbols search methods",
     "version": "0.0.1",
     "publisher": "pkujundzic",
+    "author": "Petar Kujundzic",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/icon.png",
+    "keywords": [
+        "elixir",
+        "elixir symbols",
+        "elixir functions",
+        "elixir search code"
+    ],
     "engines": {
         "vscode": "^1.20.0"
     },
     "categories": [
-        "Other"
+        "Languages"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onLanguage:elixir"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/perix4/vs-code-elixir-symbols"
+    },
     "main": "./out/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
+        "commands": []
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
