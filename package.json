@@ -2,7 +2,7 @@
     "name": "elixir-symbols",
     "displayName": "elixir-symbols",
     "description": "VSCode Elixir symbols search methods",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "pkujundzic",
     "author": "Petar Kujundzic",
     "license": "SEE LICENSE IN LICENSE.md",
