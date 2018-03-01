@@ -10,7 +10,7 @@ import {
 
 export default class ElixirDocumentSymbolProvider implements DocumentSymbolProvider {
   public matchFunction(line: string) {
-    const function_regex = /def(p?) (.+?\(.+?\)),? do/
+    const function_regex = /def(p?) (.+?\(?.*?\)?),? do/
     return line.match(function_regex)
   }
   public provideDocumentSymbols(document: TextDocument,

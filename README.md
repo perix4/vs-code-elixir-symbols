@@ -10,8 +10,9 @@ Search functions in elixir files.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.4
 
+Fixes finding functions without parenthesis
 
 ### 0.0.2
 
